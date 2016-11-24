@@ -2,7 +2,9 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'site_prism'
-# Pry.config.color = true
+require 'pry'
+
+Pry.config.color = true
 
 SitePrism.configure do |config|
   config.use_implicit_waits = true
