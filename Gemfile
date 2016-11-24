@@ -1,6 +1,8 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'capybara'
-gem 'capybara/cucumber'
 gem 'selenium-webdriver'
+gem 'cucumber'
 gem 'site_prism'
+gem 'chromedriver-helper'
+gem 'rspec'
