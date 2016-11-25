@@ -6,7 +6,7 @@ Feature: Login form
 
 	Scenario: Successful login
 		Given I access the login page
-    When I fill in the username field
-    And I fill in the password field
+    When I fill in the username field with "tomsmith"
+    And I fill in the password field with "SuperSecretPassword!"
     And I click the submit button
     Then I should be on the secure page
