@@ -7,5 +7,6 @@ class Login < SitePrism::Page
   element :username_field, "input#username"
   element :password_field, "input#password"
   element :submit_button, "#login > button"
+  element :invalid_user_text, "div#flash.error"
 
 end

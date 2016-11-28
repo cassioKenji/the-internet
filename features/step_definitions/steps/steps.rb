@@ -18,3 +18,7 @@ end
 Then(/^I should be on the secure page$/) do
   expect(page.current_url.split("/").last).eql?("secure")
 end
+
+Then(/^I should see a message with the text "([^"]*)"$/) do |message|
+  page.has_content?(@login_page.invalid_user_text)
+end

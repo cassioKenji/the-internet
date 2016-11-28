@@ -10,3 +10,10 @@ Feature: Login form
     And I fill in the password field with "SuperSecretPassword!"
     And I click the submit button
     Then I should be on the secure page
+
+  Scenario: Successful login
+  	Given I access the login page
+    When I fill in the username field with "nottomsmith"
+    And I fill in the password field with "notSuperSecretPassword!"
+    And I click the submit button
+    Then I should see a message with the text "Your username is invalid!"
