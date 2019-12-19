@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
@@ -48,7 +48,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     public_suffix (2.0.4)
-    rack (2.0.1)
+    rack (2.0.8)
     rack-test (0.6.3)
       rack (>= 1.0)
     rspec (3.5.0)
