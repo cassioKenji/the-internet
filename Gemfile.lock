@@ -33,7 +33,7 @@ GEM
       gherkin (~> 4.0)
     cucumber-wire (0.0.1)
     diff-lcs (1.2.5)
-    ffi (1.9.14)
+    ffi (1.15.5)
     gherkin (4.0.0)
     io-like (0.3.1)
     matrix (0.4.2)
